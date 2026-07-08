@@ -55,6 +55,7 @@ BOOL Rc4_enc_via_systemfunc032(IN PBYTE key, IN PBYTE payload, IN DWORD keysize,
 
 	NTSTATUS status = SystemFunction032(&Data, &Key);
 }
+
 int main() {
 	printf("[*] RC4 shellcode using Systemfunction32 :\n");
 
