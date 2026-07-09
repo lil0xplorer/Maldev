@@ -1,8 +1,10 @@
 #include <stdio.h>
 #include <windows.h>
-#include "resource.h"
+#include "resource.h" //add this #define IDR_RCDATA1                     101
+
 
 #define IDR_RCDATA1 101
+
 
 int main() {
 
